@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 // Define a route
 app.get('/', (req, res) => {
-  res.send('Hello Cloud Computing with Azure! One update. Lets brake something');
+  res.send('Hello Cloud Computing with Azure! One update. Added a new feature.');
 });
 
 // Start the server
